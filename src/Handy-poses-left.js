@@ -1,13 +1,4 @@
 
-//  Copyright © 2020–2021 Stewart Smith. See LICENSE for details.
-
-
-
-
-//  Oculus Quest has trouble with finger overlaps 
-//  as illustrated by American Sign Language (ASL)
-//  for M, N, R, T, X etc.
-
 const poses = [
 
 
@@ -58,16 +49,7 @@ const poses = [
 
 	{"names":["walk middle down"],"handedness":"left","handyRevision":5,"time":1622838929543,"headPosition":[222,-212,-98],"headRotation":[-0.029124571298756327,0.12533504788819275,-0.06603274110385798,0.989486008434431],"jointPositions":[[0,0,0],[20,-25,-39],[25,-44,-65],[-1,-51,-85],[-14,-62,-103],[16,-9,-41],[24,-7,-96],[24,-13,-134],[24,-17,-157],[22,-18,-180],[3,-9,-41],[2,-3,-96],[-5,-39,-118],[-7,-65,-125],[-12,-87,-137],[-8,-9,-38],[-17,-7,-89],[-18,-44,-101],[-8,-52,-78],[-1,-36,-61],[-23,-9,-34],[-35,-14,-78],[-29,-43,-84],[-19,-50,-68],[-12,-37,-52]],"digitTipPositions":[[-14,-62,-103],[22,-18,-180],[-12,-87,-137],[-1,-36,-61],[-12,-37,-52]]},
 
-	//  Note that this pose only contains thumb and index positions.
-	//  Right now it’s “too close” to Rest...
-	//
-	//{"names":["pinch"],"handedness":"left","handyRevision":4,"time":1597940692048,"headPosition":[-938,-443,-5899],"headRotation":[-3.700743415417188e-17,0,0,1],"jointPositions":[[0,0,0],[36,19,-28],[51,44,-43],[74,68,-39],[90,82,-26],[41,9,-16],[96,7,-24],[114,41,-25],[104,63,-22],[90,80,-17]],"digitTipPositions":[[90,82,-26],[90,80,-17],[177,52,3],[173,36,24],[144,19,65]]},
-
-
-
-
-
-
+	
 	    /////////////////////
 	   //                 //
 	  //   ASL Letters   //
