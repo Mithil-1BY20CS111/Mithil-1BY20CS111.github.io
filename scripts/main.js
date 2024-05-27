@@ -283,8 +283,6 @@ function setupContent() {
 
 
 	//  Let’s create a circular platform to “stand” on in space.
-	//  To create a 3D “thing” we must create a “Mesh”:
-	//  https://threejs.org/docs/#api/en/objects/Mesh
 
 	const platform = new THREE.Mesh( 
 
@@ -305,22 +303,10 @@ function setupContent() {
 
 
 	//  Objects are positioned according to their center
-	//  so we’d better force our platform downward
-	//  by half its height so its top is level to the floor.
 
 	platform.position.set( 0, -0.5, 0 )
-
-
-	//  By default meshes do not receive shadows.
-	// (This keeps rendering speedy!)
-	//  So we must turn on shadow reception manually.
 	
 	platform.receiveShadow = true
-
-
-	//  And we want our platform to actually exist in our world
-	//  so we must add it to our scene.
-	//  Or that is… our “world” group within our scene.
 
 	world.add( platform )
 	
@@ -335,8 +321,6 @@ function setupContent() {
 
 
 	//  Lensflare !
-	//  These textures come from the Three.js repository.
-	//  https://threejs.org/docs/#examples/en/objects/Lensflare
 
 	const 
 	loader    = new THREE.TextureLoader(),
